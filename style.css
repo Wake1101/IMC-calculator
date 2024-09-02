@@ -8,12 +8,22 @@
 
 :root{
     font-size: 62.5%;
-    --dark-blue-: #040924;
+    --bg-main-: #040924;
+    --tt-heaading: #0C3440;
+    --tt-label: #00453A;
+    --tt-input: #212529;
+    --ot-input: #02799D;
+    --tt-placeholder: rgba(73, 80, 87, 0.5);
+    --tt-button: white;
+    --bg-button: rgba(2, 121, 157, 1);
+    --bg-error: rgba(240, 62, 62, 1);
+    --tt-error: white;
 }
 
 body{
     font-size: 1.6rem;
-    background-color: var(--dark-blue-);
+    background-color: var(--bg-main-);
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
